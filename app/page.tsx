@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import Navigation from './navigation'
-import LogoName from './logoname'
-import Search from './search'
-import Cart from './cart'
-import Slideshow from './slideshow'
-import Product from './product'
+import Navigation from '@/app/navigation'
+import LogoName from '@/app/logoname'
+import Search from '@/app/search'
+import Cart from '@/app/cart'
+import Slideshow from '@/app/slideshow'
+import Product from '@/app/product'
 
 export default function Home() {
     return (
